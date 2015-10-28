@@ -23,7 +23,7 @@ let main argv =
     printfn "Web server up and running on %s" hostAddress
     printf  "Press any key to stop"
 
-    Console.ReadKey()
+    Console.ReadKey() |> ignore
 
     server.Dispose()
 

@@ -6,4 +6,7 @@ type HelloController () =
     inherit ApiController()
 
     member this.Get () = 
-            "hello world"
+            "getting hello world"
+
+    member this.Post () =
+            "posting hello world"
