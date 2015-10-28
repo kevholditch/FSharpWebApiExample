@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWebApi", "FSharpWebApi\FSharpWebApi.fsproj", "{BFD671EE-CC2D-4D4B-B015-3596F531D3F4}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWebApi.Tests", "FSharpWebApi.Tests\FSharpWebApi.Tests.fsproj", "{5E5BB1C9-DB22-4146-AE42-41339EABA9B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BFD671EE-CC2D-4D4B-B015-3596F531D3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFD671EE-CC2D-4D4B-B015-3596F531D3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFD671EE-CC2D-4D4B-B015-3596F531D3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5BB1C9-DB22-4146-AE42-41339EABA9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5BB1C9-DB22-4146-AE42-41339EABA9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5BB1C9-DB22-4146-AE42-41339EABA9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5BB1C9-DB22-4146-AE42-41339EABA9B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
